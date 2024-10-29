@@ -1,0 +1,21 @@
+var object = {
+    name: 'Bob',
+    age: 50
+};
+
+class Person {
+    name;
+    age;
+
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    getID() {
+        return this.age > 21;
+    }
+}
+
+console.log(new Person('Bob',50));
+
